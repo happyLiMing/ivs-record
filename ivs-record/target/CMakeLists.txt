@@ -1,0 +1,9 @@
+CMAKE_MINIMUM_REQUIRED (VERSION 2.8)
+
+PROJECT (ivs-record)
+
+#SET (CMAKE_INSTALL_PREFIX  /usr/local)
+
+ADD_SUBDIRECTORY (../src bin)
+
+
