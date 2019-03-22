@@ -16,6 +16,5 @@
    
    make 
    
-  ``` 
-  
+  ```   
 * 编译好的ivs-record位于 ``/tartget/build/bin/``下面，执行即可。
