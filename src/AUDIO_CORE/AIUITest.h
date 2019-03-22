@@ -1,4 +1,4 @@
-﻿/*
+/*
  * AIUIAgentTest.h
  *
  *  Created on: 2019年3月21日
@@ -15,7 +15,7 @@
 #include <iostream>
 
 
-#define  SAVE_AUDIO_PATH "/home/earl/AIUI/save"
+#define  SAVE_AUDIO_PATH "/home/earl/save.pcm"
 using namespace std;
 
 class AIUITester
