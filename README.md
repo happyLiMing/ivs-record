@@ -18,3 +18,16 @@
    
   ```   
 * 编译好的ivs-record位于 ``/tartget/build/bin/``下面，执行即可。
+
+* 标准输出音频代码位于/src/AIUI_CORE/audio/thread/AudioListenThread.cpp
+
+ ```
+ bool AudioListenThread::threadLoop()
+{
+	audioBuffer = mAudioProvider->startRecord();
+	fprintf(stdout, audioBuffer);
+	mFileHelper->write(audioBuffer, bufferSize, 0, bufferSize);
+	return mRun;
+}
+ 
+ ```
